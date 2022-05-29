@@ -44,12 +44,12 @@ internal class Program
 
         if (vipList.Count > 0)
         {
-            Console.WriteLine(String.Join("\n", vipList));
+            Console.WriteLine(String.Join(Environment.NewLine, vipList));
 
         }
         if (regularList.Count > 0)
         {
-            Console.Write(String.Join("\n", regularList));
+            Console.Write(String.Join(Environment.NewLine, regularList));
 
         }
     }
